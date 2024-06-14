@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbicide</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    
+    
+    <link rel="stylesheet" href="css/TopScroll.css" />
+    <link rel="stylesheet" href="css/figurecaptions.css" />
+
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    
+    <script src="js/figurecaptions.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <script>
+      $(function () {
+        // on DOM load
+        $("#eg1").addCaption({
+          // very long caption
+          caption:
+            "<p>An awesome picture caption!</p><p>An awesome picture caption!</p><p>An awesome picture caption!</p><p>An awesome picture caption!</p><p>An awesome picture caption!</p>",
+        });
+
+        $("#eg2").addCaption({
+          // dynamic caption
+          fx: "zoomin",
+          caption: "An awesome picture caption!",
+        });
+
+        $("#eg3").addCaption({
+          fx: "dualpanels",
+          caption: "An awesome picture caption!",
+        });
+
+        $("#eg4").addCaption({
+          // caption from container's "title" attribute
+          fx: "dualpanels2",
+          caption: "title",
+        });
+
+        $("#eg5").addCaption({
+          fx: "pushup",
+          caption: "title",
+        });
+
+        $("#eg6").addCaption({
+          // caption from figure element's figcaption element
+          fx: "flipopen",
+        });
+
+        $("#eg7").addCaption({
+          fx: "flipreveal",
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      
+        // hide #back-top first
+        $("#back-top").hide();
+        
+        // fade in #back-top
+        $(function () {
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+              $('#back-top').fadeIn();
+            } else {
+              $('#back-top').fadeOut();
+            }
+          });
+      
+          // scroll body to 0px on click
+          $('#back-top a').click(function () {
+            $('body,html').animate({
+              scrollTop: 0
+            }, 800);
+            return false;
+          });
+        });
+      
+      });
+      </script>
+</head>
+<body>
+    <div class="container1">
+        <div class="help">
+            <marquee 
+            scrollamount="3"
+            onmouseover="this.stop()"
+            onmouseleave="this.start()">
+                <div class="contact">
+                    <h4 style="font-size: 16px;">Please contact us :+917385012210  E-Mail:agriculture@gmail.com</h4>
+                </div>
+            </marquee>
+
+            <div class="icons">
+                <i class="fa-brands fa-square-instagram b1"></i>
+                <i class="fa-brands fa-square-whatsapp b1"></i>
+                <i class="fa-brands fa-facebook b1"></i>
+                <i class="fa-brands fa-square-twitter b1"></i>
+                <i class="fa fa-linkedin-square b1"></i>
+
+            </div>
+        </div>
+
+        <div class="logo-menu-div">
+            <div class="logo">
+                <label>Sheetal Agriculture.LTD</label>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+             <div class="prod-div">
+                <div class="prod-img">
+                    <img src="images/FP1.jfif" >
+                </div>
+
+                <div class="prod-heading">
+                    <h2>BIOPRIME PRIME 7525 (SEAWEED EXTRACT FOR FLOWERING, FRUITING)</h2><br>
+                    <h2>₹550</h2>
+
+                    <div class="about-prod">
+                        <h4>About the item</h4>
+                    </div>
+
+                    <div class="about-desc">
+                        <table>
+                            <tr>
+                                <td><img src="images/ar2.jfif"></td>
+                                <td>
+                                    <p>Prime 7525 helps in increase of foliage along with inducing more flowering and ultimately fruit conversion. It helps to get uniform fruit size and weight with uniform harvesting every plucking.</p>
+                                </td>
+                            </tr>
+                            
+                            </table>
+                    </div>
+                    <div class="other-info">
+                        <h4>Detail Information</h4>
+
+                        <div class="accr">
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Technical Details
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <table class="table">
+                                            
+                                            <tbody>
+                                              <tr>
+                                               
+                                                <td>Crops</td>
+                                                <td>Drip:500ml/Acre</td>
+                                              </tr>
+                                              <tr>
+                                                
+                                                <td >Mode Of Action:</td>
+                                                <td>Fast acting formulation of prime 7525 and other bio-stimulants </td>
+                                              </tr>
+        
+                                              <tr>
+                                                
+                                                <td>Dosage</td>
+                                                <td>Vegetables (3 month)=750ml/Acre	,Vegetables (6 moths)=1000ml/Acr</td>
+                                              </tr>
+                                              
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          Additional Information
+                                      </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                          <table class="table">
+                                              
+                                              <tbody>
+                                                <tr>
+                                                 
+                                                  <td style="background-color: lightgray;">BIOPRIME</td>
+                                                  <td>It improves nutrient uptake of the crop, which enhances growth.</td>
+                                                  <td>Increase in foliage, enhances photosynthesis.</td>
+                                                  <td>Induces more flowering, enhances flower to fruit conversion</td>
+                                                  <td>Biodegradable and residue free. Environmentally safe, no residue on plants and soil.</td>
+                                              
+                                                </tr>
+                                                
+                                               
+                                              </tbody>
+                                            </table>
+                                      </div>
+                                    </div>
+                                  
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footercon">
+          <div class="row1">
+              <div class="footer-col">
+                  <h4>Company</h4>
+                  <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Our Services</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">About Product</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer-col">
+                  <h4>Get Help</h4>
+                  <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Shipping</a></li>
+                      <li><a href="#">Order Status</a></li>
+                      <li><a href="#">Payment Options</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer-col">
+                  <h4>Online Shop</h4>
+                  <ul>
+                      <li><a href="#">Krishibharat</a></li>
+                      <li><a href="#">KisanShop</a></li>
+                      <li><a href="#">AgriBegri</a></li>
+                      <li><a href="#">IFFCO Bazar</a></li>
+                      <li><a href="#">Moglix.com</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer-col">
+                  <h4>Follow Us</h4>
+                  <div class="social-links">
+                  <a href="#"><i class="fa-brands fa-square-instagram b1"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-whatsapp b1"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook b1"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-twitter b1"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </footer>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <p id="back-top">
+      <a href="#top"><span></span>Back To Top</a></p>
+</body>
+</html>
